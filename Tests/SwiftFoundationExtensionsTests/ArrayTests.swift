@@ -37,11 +37,4 @@ final class ArrayTests: XCTestCase {
         let second = [2, 3, 1, 1]
         XCTAssert(first.elementsEqualIgnoringOrder(second))
     }
-
-    static var allTests = [
-        ("testEqual", testEqual),
-        ("testSame", testSame),
-        ("testUnequalElements", testUnequalElements),
-        ("testUnequalLengths", testUnequalLengths)
-    ]
 }

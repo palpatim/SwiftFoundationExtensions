@@ -31,11 +31,4 @@ final class SetTests: XCTestCase {
         let second = Set([2, 3, 1, 0])
         XCTAssertFalse(first.elementsEqualIgnoringOrder(second))
     }
-
-    static var allTests = [
-        ("testEqual", testEqual),
-        ("testSame", testSame),
-        ("testUnequalElements", testUnequalElements),
-        ("testUnequalLengths", testUnequalLengths)
-    ]
 }

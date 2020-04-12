@@ -9,5 +9,6 @@ import XCTest
 import SwiftFoundationExtensionsTests
 
 var tests = [XCTestCaseEntry]()
-tests += SwiftFoundationExtensionsTests.allTests()
+tests += SwiftFoundationExtensionsTests.__allTests()
+
 XCTMain(tests)
